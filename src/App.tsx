@@ -98,8 +98,10 @@ function App() {
         <ReactTable
           data={sortData(studyList)}
           columns={getDisplayColumns(columns)}
-          defaultPageSize={10}
-          // pageSizeOptions={[2, 4, 6]}
+          style={{ width: "80vw",height:"100vh" }}
+          defaultPageSize={30}
+          pageSizeOptions={[30, 50, 100]}
+          className="-highlight"
         ></ReactTable>
       </div>
     </div>
