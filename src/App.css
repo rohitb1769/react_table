@@ -20,20 +20,21 @@
   text-align: left;
   display: flex;
   align-items: center;
-  margin: 10px 0;
+  margin: 10px;
   justify-content: space-between;
 }
 
 .header_name {
-  width: 130px;
   display: inline-block;
   vertical-align: middle;
+  padding-left: 10px;
 }
 
-.ReactTable .rt-tbody .rt-td {
+/* .ReactTable .rt-tbody .rt-td {
   border-right: none !important;
-}
+} */
 
-.ReactTable .rt-th, .ReactTable .rt-td {
+.ReactTable .rt-th,
+.ReactTable .rt-td {
   padding: 15px 5px !important;
 }
